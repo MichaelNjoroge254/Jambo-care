@@ -188,7 +188,7 @@ nav img {
 .hero-btn {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: rgb(49, 128, 95);
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
@@ -199,8 +199,10 @@ nav img {
 
 .hero-btn:hover {
     border: 1px solid #fff;
+    text-decoration: none;
     background: rgb(49, 128, 95);
     transition: 1s;
+    color: #fff;
 }
 
 nav .fa {
@@ -339,7 +341,7 @@ nav .fa {
 }
 
 .services .service {
-    background: rgb(49, 128, 95);
+    background: rgb(49, 128, 95);    
     text-align: center;
     padding: 30px;
     width: 100%;
