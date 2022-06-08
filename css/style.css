@@ -291,7 +291,7 @@ nav .fa {
 
 .about-col img {
     width: 100%;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 .row {
@@ -326,6 +326,9 @@ nav .fa {
         flex-direction: column;
         font-size: small;
     }
+    .about-col h2{
+        font-size: 20px;
+    }
 }
 
 
@@ -349,7 +352,7 @@ nav .fa {
 }
 
 .services .service .icon-wrap {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 
 }
 
@@ -401,17 +404,137 @@ nav .fa {
     background: rgb(49, 128, 95);
 }
 
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+        font-size: small;
+    }
+    .support h2{
+        font-size: 20px;
+    }
+    .services .service h3{
+        font-size: 20px; 
+    }
+    .services .service .icon-wrap{
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
 /* Why choose us styling */
+.choose-col{
+    flex-basis: 48%;
+    padding: 10px 0px;
+}
+.choose-col img{
+    width: 100%;
+    border-radius: 3%;
+}
 
-/* .site-section {
-    padding: 2.5em 0; }
-    @media (min-width: 768px) {
-      .site-section {
-        padding: 5em 0; } }
-    .site-section.site-section-sm {
-      padding: 4em 0; }
-   */
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+        font-size: small;
+    }
+    .choose h3{
+        font-size: 20px;
+    }
+}
 
-#key{
-    border-radius: 10%;
+
+/* What Is Support Coordination styling */
+.plan{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.site-section{
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.contents{
+    flex-basis: 25%;
+    background: rgb(241, 236, 236);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.contents:hover{
+    box-shadow: 0 0 20px 0px rgb(49, 128, 95);
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+        font-size: small;
+    }
+    .plan h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+
+/* Three Levels of Support Coordination styling */
+.levels{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.level-col{
+    flex-basis: 31%;
+    background: rgb(241, 236, 236);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 50px 25px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h4{
+    text-align: center;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.level-col:hover{
+    box-shadow: 0 0 20px 0px rgb(49, 128, 95);
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+        font-size: small;
+    }
+    .levels h2{
+        font-size: 20px;
+    }
+    .level-col h4{
+        font-size: 17px;
+    }
+    p{
+        font-size: 14px;
+    }
 }
