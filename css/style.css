@@ -508,6 +508,7 @@ nav .fa {
     padding: 50px 25px;
     box-sizing: border-box;
     transition: 0.5s;
+    cursor: pointer;
 }
 h4{
     text-align: center;
@@ -537,4 +538,117 @@ h4{
     p{
         font-size: 14px;
     }
+    h2{
+        font-size: 20px;
+    }
+}
+
+/* What do Support Coordinators do? styling */
+
+.Coordinate-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+.Coordinate-col{
+    flex-basis: 48%;
+    padding: 10px 0px;
+}
+.Coordinate-col img{
+    width: 100%;
+    border-radius: 3%;
+}
+
+
+/* NDIS Resources styling section */
+
+.Resources{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.Resources-col{
+    flex-basis: 31%;
+    background: rgb(241, 236, 236);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 50px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Resources-col:hover{
+    box-shadow: 0 0 20px 0px rgb(49, 128, 95);
+}
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+        font-size: small;
+    }
+    .Resources h2{
+        font-size: 20px;
+    }
+    .Resources-col h4{
+        font-size: 17px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+
+/* Who We Are styling section */
+
+.history{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.history h2{
+    text-align: center;
+}
+.history-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.history-col p{
+    padding-top: 30px;
+}
+.history-col img{
+    width: 100%;
+    border-radius: 3%;
+}
+
+
+/* Our Values styling section */
+
+.values{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.empower{
+    width: 80%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+.empower-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.empower-col img{
+    width: 100%;
+    border-radius: 3%;
+}
+.empower-col p{
+    padding-top: 30px;
 }
