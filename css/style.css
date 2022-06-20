@@ -116,7 +116,7 @@ html{
 header {
     min-height: 100vh;
     width: 100%;
-    background-image: /*linear-gradient(rgba(53, 47, 47, 0.7), rgba(41, 37, 37, 0.7)),*/ url(https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
+    background-image:/* linear-gradient(rgba(53, 47, 47, 0.7), rgba(41, 37, 37, 0.7)),*/ url(https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);  
     background-position: center;
     background-size: cover;
     position: relative;
@@ -805,4 +805,54 @@ h4{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+}
+
+
+/* About Us Page Styling */
+
+.abt-us{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.pexels.com/photos/4069535/pexels-photo-4069535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.lay h2{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+}
+
+
+/* Services Page Styling */
+
+.serve{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.pexels.com/photos/461082/pexels-photo-461082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.over h2{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+}
+
+/* Contact Us Page Styling */
+
+.con{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.pexels.com/photos/510174/pexels-photo-510174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.tact h2{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
 }

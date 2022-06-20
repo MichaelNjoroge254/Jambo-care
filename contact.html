@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jambo-care</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="con">
+
+            <div class="tact">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+                    </div>
+                    <div class="menu-icons">
+                        <div class="nav-links" id="navLinks">
+                            <i class="fa fa-times" onclick="hideMenu()"></i>
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="about.html">ABOUT</a></li>
+                                <li><a href="services.html">SERVICES</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                    </div>
+                </div>
+                <div>
+                    <h2>Contact Us</h2>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- NDIS Resources section -->
+
+    <section class="Resources">
+        <h2>NDIS Resources</h2>
+
+        <div class="row">
+            <div class="Resources-col">
+                <h4>Accessing the NDIS and getting started.</h4>
+            </div>
+            <div class="Resources-col">
+                <h4>NDIS Safeguards and Commissions</h4>
+            </div>
+            <div class="Resources-col">
+                <h4>NDIS Support Categories</h4>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Why choose us section -->
+
+    <section>
+        <div class="site-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 text-center order-lg-2">
+                        <div class="choose-col">
+                            <img src="images/keyboard.jpeg" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ml-auto order-lg-1">
+                        <div class="choose">
+                            <h3 class="mb-4 section-heading">Why Choose Jambo Care Support Coordination?</h3>
+                        </div>
+                        <p class="mb-4">Local support</p>
+                        <p class="mb-4">Tailored and Personalised</p>
+                        <p class="mb-4">Disability Expertise</p>
+
+                        <p><a href="#" class="hero-btn red-btn">Contact us now</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Details section -->
+
+    <section class="contact-us" id="contact">
+        <div class="form">
+            <h2>Contact Us</h2>
+             <p>For any question or consultation, please fill in the form below <!--(Power Diary Software 
+                Online Booking System share on the website)--></p>
+        </div>
+        
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Brisbane, extending services to</h5>
+                        <p>Ipswich, and Gold Coast regions.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>0423 544 964</h5>
+                        <p>Call us </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>admin@jambocare.com.au</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer section -->
+
+    <section class="footer">
+       
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
