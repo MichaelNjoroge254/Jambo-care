@@ -195,15 +195,37 @@ nav img {
     display: inline-block;
     text-decoration: none;
     color: rgb(49, 128, 95);
+    border: 1px solid rgb(49, 128, 95);
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.red-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(49, 128, 95);
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
     position: relative;
     cursor: pointer;
+
 }
 
 .hero-btn:hover {
+    border: 1px solid rgb(253, 249, 249);
+    text-decoration: none;
+    background: rgb(49, 128, 95);
+    transition: 1s;
+    color: #fff;
+}
+
+.red-btn:hover{
     border: 1px solid #fff;
     text-decoration: none;
     background: rgb(49, 128, 95);
@@ -370,6 +392,7 @@ nav .fa {
     transition: .3s all ease;
 }
 
+
 .services .service h3 {
     position: relative;
     padding-bottom: 20px;
@@ -423,14 +446,17 @@ nav .fa {
     }
     .services .service .icon-wrap{
         flex-direction: column;
+        /* flex-basis: 100%;
+        margin: 0 0 5px 0; */
         display: flex;
         text-align: center;
     }
     .icon-wrap{
-        display: flexbox;
+        display: grid;
         align-items: center;
     }
 }
+
 
 
 

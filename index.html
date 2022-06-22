@@ -67,7 +67,7 @@
                 <p>Our experienced team of Support Coordinators support you to have
                     real choice and control over the services you want
                     and who you want to provide them.</p>
-                <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+                <a href="#" class="red-btn">EXPLORE NOW</a>
             </div>
 
         </div>
@@ -162,7 +162,7 @@
                         <p class="mb-4">Tailored and Personalised</p>
                         <p class="mb-4">Disability Expertise</p>
 
-                        <p><a href="#" class="hero-btn red-btn">Contact us now</a></p>
+                        <p><a href="#" class="red-btn">Contact us now</a></p>
                     </div>
                 </div>
             </div>
@@ -291,7 +291,7 @@
                 <p>Jambo Care is a support Coordination service providing holistic assist to people living with a
                     disability, their families, and carers, with information about the NDIS and with the disability
                     supports they need to live full and independent lives.</p>
-                <p><a href="#" class="hero-btn red-btn">Contact us now</a></p>
+                <p><a href="#" class="red-btn">Contact us now</a></p>
             </div>
             <div class="history-col">
                 <img src="images/history.webp" alt="">
@@ -315,7 +315,7 @@
                 <p>We are champions in providing the best, agreed care and services to our clients and to advocate on
                     their behalf in all areas of their identified needs. We strive to increase capacity and empower to
                     live your best life.</p>
-                <p><a href="#" class="hero-btn red-btn">EXPLORE NOW</a></p>
+                <p><a href="#" class="red-btn">EXPLORE NOW</a></p>
             </div>
         </div>
 
@@ -331,7 +331,7 @@
                 <p>Primarily based and located in Brisbane, extending services to Ipswich, and
                     Gold Coast regions.</p>
                 <p>We offer Telehealth Support Coordination in other States NSW and Victoria.</p>
-                <p><a href="#" class="hero-btn red-btn">Contact us now</a></p>
+                <p><a href="#" class="red-btn">Contact us now</a></p>
             </div>
             <div class="brisbane-col">
                 <img src="images/brisb.jpeg" alt="">
@@ -366,7 +366,8 @@
                     <div class="col-lg-6 mb-4">
 
                         <div class="contents">
-                            <p><b>Diversity and inclusion</b>- No matter your age, gender, disability, or journey. Everyone is
+                            <p><b>Diversity and inclusion</b>- No matter your age, gender, disability, or journey.
+                                Everyone is
                                 welcome.</p>
                         </div>
                     </div>
@@ -389,10 +390,12 @@
     <section class="contact-us" id="contact">
         <div class="form">
             <h2>Contact Us</h2>
-             <p>For any question or consultation, please fill in the form below <!--(Power Diary Software 
-                Online Booking System share on the website)--></p>
+            <p>For any question or consultation, please fill in the form below
+                <!--(Power Diary Software 
+                Online Booking System share on the website)-->
+            </p>
         </div>
-        
+
         <div class="row">
             <div class="contact-col">
                 <div>
@@ -419,12 +422,12 @@
             </div>
             <div class="contact-col">
 
-                <form action="form-handler.php" method="post">
-                    <input type="text" name="name" placeholder="Enter your name" required>
-                    <input type="email" name="email" placeholder="Enter email address" required>
-                    <input type="text" name="subject" placeholder="Enter your subject" required>
-                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
-                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <input type="email" id="email" placeholder="Enter email address" required>
+                    <input type="text" id="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" id="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn">Send Message</button>
                 </form>
 
             </div>
@@ -435,7 +438,7 @@
     <!-- Footer section -->
 
     <section class="footer">
-       
+
         <div class="icons">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-whatsapp"></i>
@@ -444,6 +447,27 @@
             <i class="fa fa-twitter"></i>
         </div>
     </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "mike.mkwalker@gmail.com",
+                Password: "2C8E9947A239508C8E3FE45380E5897F4BBF",
+                To: 'mike.mkwalker@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New Contact Form Enquiry",
+                Body: "Name: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Subject: " + document.getElementById("subject").value
+                    + "<br> Message: " + document.getElementById("message").value
+            }).then(
+                message => alert("Message Sent Succesfully")
+            );
+        }
+
+    </script>
 
     <script>
         var navLinks = document.getElementById("navLinks");
@@ -454,7 +478,7 @@
             navLinks.style.right = "-200px";
         }
     </script>
-    
+
 
 
 
@@ -472,6 +496,7 @@
     <script src="js/aos.js"></script>
 
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
