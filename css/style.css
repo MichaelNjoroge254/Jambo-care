@@ -117,9 +117,7 @@ header {
     min-height: 100vh;
     width: 100%;
     /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/together.jpeg); */
-    background-image:
-        /* linear-gradient(rgba(53, 47, 47, 0.7), rgba(41, 37, 37, 0.7)),*/
-    url(https://images.pexels.com/photos/6146705/pexels-photo-6146705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image:  /*linear-gradient(rgba(53, 47, 47, 0.7), rgba(41, 37, 37, 0.7)),*/url(https://images.pexels.com/photos/6146705/pexels-photo-6146705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
     background-position: center;
     background-size: cover;
     position: relative;
@@ -831,18 +829,19 @@ h4 {
 
 .contact-us {
     width: 80%;
-    margin: auto;
+    margin: auto;    
+    /* border: 1px solid rgb(49, 128, 95); */
 }
 
 .contact-col {
     flex-basis: 48%;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
 }
 
 .contact-col div {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 40px;   
 }
 
 .contact-col div .fa {
@@ -869,6 +868,7 @@ h4 {
     padding: 15px;
     margin-bottom: 17px;
     outline: none;
+    background-color: #f5f5f5;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
