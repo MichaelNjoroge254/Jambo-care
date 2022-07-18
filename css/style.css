@@ -189,7 +189,7 @@ nav img {
 .text-box p {
     margin: 10px 0 40px;
     font-size: 30px;
-    color: #fff;
+    color: rgb(211, 208, 53);
 }
 
 .hero-btn {
@@ -250,7 +250,7 @@ nav .fa {
     .text-box p {
         margin: 10px 0 40px;
         font-size: 15px;
-        color: #fff;
+        color: rgb(211, 208, 53);
     }
 
     .nav-links ul li {
@@ -332,6 +332,7 @@ nav .fa {
 .about-col h2 {
     padding-top: 0px;
     text-align: center;
+    /* color: rgb(211, 208, 53);; */
 }
 
 .about-col p {
@@ -485,6 +486,9 @@ nav .fa {
     width: 100%;
     border-radius: 3%;
 }
+/* .choose h3{
+    color: rgb(211, 208, 53);;
+} */
 
 @media(max-width: 700px) {
     .row {
@@ -494,6 +498,7 @@ nav .fa {
 
     .choose h3 {
         font-size: 20px;
+        color: rgb(211, 208, 53);;
     }
 }
 
