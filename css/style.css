@@ -622,12 +622,19 @@ h4 {
 
 .Coordinate-col ul li {
     list-style: circle;
+    font-size: large;
+    margin-left: 15%;
 }
 
-.Coordinate-col img {
+.Coordinate-col h2{
+    text-align: center;
+    color: rgb(49, 128, 95);;
+}
+
+/* .Coordinate-col img {
     width: 100%;
     border-radius: 3%;
-}
+} */
 
 
 /* NDIS Resources styling section */
@@ -675,6 +682,13 @@ h4 {
     h2 {
         font-size: 20px;
     }
+    .Coordinate-col ul li {
+        list-style: circle;
+        font-size: 15px;
+        margin-left: 15%;
+    }
+    
+    
 }
 
 
@@ -756,12 +770,14 @@ h4 {
 
 .brisbane-col p {
     padding-top: 30px;
+    margin-left: 10%;
+
 }
 
-.brisbane-col img {
+/* .brisbane-col img {
     width: 100%;
     border-radius: 3%;
-}
+} */
 
 
 /* Our Vision, Our Mission and Our Values styling section */
