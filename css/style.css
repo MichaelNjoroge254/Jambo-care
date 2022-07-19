@@ -116,8 +116,7 @@ html {
 header {
     min-height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/together.jpeg); */
-    background-image:  /*linear-gradient(rgba(53, 47, 47, 0.7), rgba(41, 37, 37, 0.7)),*/url(https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); 
+    background-image:  linear-gradient(rgba(53, 47, 47, 0.7), rgba(41, 37, 37, 0.7)),url(https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); 
     background-position: center;
     background-size: cover;
     position: relative;
@@ -487,7 +486,7 @@ nav .fa {
     border-radius: 3%;
 }
 /* .choose h3{
-    color: rgb(211, 208, 53);;
+    color: rgb(211, 208, 53);
 } */
 
 @media(max-width: 700px) {
@@ -498,7 +497,7 @@ nav .fa {
 
     .choose h3 {
         font-size: 20px;
-        color: rgb(211, 208, 53);;
+        color: rgb(211, 208, 53);
     }
 }
 
@@ -924,7 +923,7 @@ h4 {
 .abt-us {
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://images.pexels.com/photos/4069535/pexels-photo-4069535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/logo.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -959,7 +958,8 @@ h4 {
 .con {
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://images.pexels.com/photos/510174/pexels-photo-510174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    /* background-color: rgb(211, 208, 53); */
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://images.unsplash.com/photo-1587560699334-bea93391dcef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-position: center;
     background-size: cover;
     position: relative;
