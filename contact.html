@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <h2>Contact Us</h2>
-                    
+
                 </div>
             </div>
         </div>
@@ -100,10 +100,12 @@
     <section class="contact-us" id="contact">
         <div class="form">
             <h2>Contact Us</h2>
-             <p>For any question or consultation, please fill in the form below <!--(Power Diary Software 
-                Online Booking System share on the website)--></p>
+            <p>For any question or consultation, please fill in the form below
+                <!--(Power Diary Software 
+                Online Booking System share on the website)-->
+            </p>
         </div>
-        
+
         <div class="row">
             <div class="contact-col">
                 <div>
@@ -130,11 +132,11 @@
             </div>
             <div class="contact-col">
 
-                <form onsubmit="sendEmail(); reset(); return false;">
-                    <input type="text" id="name" placeholder="Enter your name" required>
-                    <input type="email" id="email" placeholder="Enter email address" required>
-                    <input type="text" id="subject" placeholder="Enter your subject" required>
-                    <textarea rows="5" id="message" placeholder="Message" required></textarea>
+                <form action="https://formsubmit.co/341f673f4d7fb0dfd11e8636772833af" method="POST">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="5" name="message" placeholder="Message" required></textarea>
                     <button type="submit" class="hero-btn">Send Message</button>
                 </form>
 
@@ -146,7 +148,7 @@
     <!-- Footer section -->
 
     <section class="footer">
-       
+
         <div class="icons">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-whatsapp"></i>
@@ -156,7 +158,7 @@
         </div>
     </section>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         function sendEmail() {
             Email.send({
@@ -175,7 +177,7 @@
             );
         }
 
-    </script>
+    </script> -->
 
     <script>
         var navLinks = document.getElementById("navLinks");
@@ -186,7 +188,7 @@
             navLinks.style.right = "-200px";
         }
     </script>
-    
+
 
 
 
