@@ -923,7 +923,7 @@ h4 {
 .abt-us {
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(http://127.0.0.1:5500/images/logo.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/logo.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
