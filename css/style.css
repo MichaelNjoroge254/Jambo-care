@@ -52,7 +52,7 @@ html {
 .overlay {
     width: 100%;
     height: 100vh;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
+    background: linear-gradient(rgba(4, 15, 14, 0.7), rgba(4, 14, 30, 0.7));
     position: absolute;
     top: 0;
 }
@@ -104,7 +104,7 @@ html {
     width: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(211, 208, 53);
+    color: rgb(147, 163, 74);
     text-decoration: none;
     font-size: 13px;
 }
@@ -160,7 +160,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(49, 128, 95);
+    background: rgb(211, 208, 53);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -194,8 +194,8 @@ nav img {
 .hero-btn {
     display: inline-block;
     text-decoration: none;
-    color: rgb(49, 128, 95);
-    border: 1px solid rgb(49, 128, 95);
+    color: rgb(211, 208, 53);
+    border: 1px solid rgb(211, 208, 53);
     padding: 12px 34px;
     font-size: 14px;
     background: transparent;
@@ -932,7 +932,7 @@ h4 {
 .abt-us {
     min-height: 80vh;
     width: 100%;
-    background-image: url(https://michaelnjoroge254.github.io/Jambo-care/images/logo.jpg); 
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(https://michaelnjoroge254.github.io/Jambo-care/images/logo.jpg); 
     background-position: center;
     background-size: cover;
     position: relative;
@@ -948,7 +948,7 @@ h4 {
 /* Services Page Styling */
 
 .serve {
-    min-height: 80vh;
+    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://iby.imd.org/wp-content/uploads/2022/02/GettyImages-1331469731-1440x958.jpg);
     background-position: center;
